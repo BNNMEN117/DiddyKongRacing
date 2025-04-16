@@ -130,8 +130,11 @@ table, td {
 }
 
 .hide {
-    display: none;
+    display: none !important;
 }
+.shown:hover + .hide {
+    display: flex !important;
+} 
 
 /* Legacy CSS */
 
@@ -145,6 +148,30 @@ table, td {
     background-color: #dcc338db !important;
     border: solid black 3px !important;
 }
+
+#DSBackground {
+    z-index: 1;
+}
+
+
+
+
+/* .cardWrapper {
+    position: relative;
+}
+  
+.cardWrapper .hiddenCard {
+    display: none;
+}
+  
+.cardWrapper:hover .visibleCard {
+    display: none;
+}
+  
+.cardWrapper:hover .hiddenCard {
+    display: flex;
+}
+   */
 
 /* Optional: you can reintroduce grid layout below if needed */
 /*
