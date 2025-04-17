@@ -151,6 +151,26 @@ table, td {
 
 #DSBackground {
     z-index: 1;
+    border-radius: 10px;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
+
+.DSTextBoxStyling {
+    border-radius: 3px;
+    position: relative;
+    z-index: 2;
+    /* padding: 80px 70px 20px 70px; */
+    padding: 10px;
+}
+
+#DSTextBox1 {
+    top: 292%;
+}
+
+#DSTextBox2 {
+    top: 316%;
 }
 
 
